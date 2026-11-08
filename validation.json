@@ -1,0 +1,20 @@
+{
+  "default_rows": 100,
+  "stockout_rows": 27,
+  "ambient_stockout_rows": 5,
+  "presets": 14,
+  "source_objects": 24,
+  "AND_OR": "PASS",
+  "range_and_multi_value": "PASS",
+  "parameter_binding_and_like_escaping": "PASS",
+  "grouping_and_weighted_pct": "PASS",
+  "numeric_and_identifier_validation": "PASS",
+  "readonly_database": "PASS",
+  "browser_default_query": "PASS: 100 rows",
+  "browser_stockout_query": "PASS: 27 rows",
+  "browser_combined_filter": "PASS: 5 rows",
+  "browser_weighted_grouping": "PASS: 30 groups",
+  "browser_saved_query": "PASS",
+  "browser_db_file_open": "PASS",
+  "browser_csv_export": "PASS: 100 rows / 10 columns"
+}

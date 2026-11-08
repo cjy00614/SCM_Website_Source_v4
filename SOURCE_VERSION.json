@@ -1,0 +1,16 @@
+{
+  "site_version": 4,
+  "source_commit": "07c9c347bfd905a33f23cb1a1505c91d7d6b87f4",
+  "exported_on": "2026-11-08",
+  "browser_sources_unchanged": true,
+  "zip_only_additions": [
+    "docs/",
+    "tests/fixtures/engine-v1.js",
+    "실행_로컬.bat",
+    "먼저_읽어주세요.md"
+  ],
+  "zip_only_modified_tests": [
+    "tests/center-locations.cjs",
+    "tests/data-integration.cjs"
+  ]
+}

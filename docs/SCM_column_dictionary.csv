@@ -1,0 +1,250 @@
+﻿source_kind,table_name,ordinal,original_name,database_column,sql_type,is_unused
+상품별 재고현황,inventory_daily,1,순번,순번,INTEGER,0
+상품별 재고현황,inventory_daily,2,센터명,센터명,TEXT,0
+상품별 재고현황,inventory_daily,3,물류상품ID,물류상품ID,TEXT,0
+상품별 재고현황,inventory_daily,4,상품명,상품명,TEXT,0
+상품별 재고현황,inventory_daily,5,총재고,총재고,INTEGER,0
+상품별 재고현황,inventory_daily,6,입하대기재고,입하대기재고,INTEGER,0
+상품별 재고현황,inventory_daily,7,불량재고,불량재고,INTEGER,0
+상품별 재고현황,inventory_daily,8,사용X,사용X,TEXT,1
+상품별 재고현황,inventory_daily,9,사용X,사용X__2,TEXT,1
+상품별 재고현황,inventory_daily,10,연동상품상태,연동상품상태,TEXT,0
+상품별 재고현황,inventory_daily,11,사용X,사용X__3,TEXT,1
+상품별 재고현황,inventory_daily,12,판매가능수량,판매가능수량,INTEGER,0
+상품별 재고현황,inventory_daily,13,판매가능수량(쓱1DAY),판매가능수량(쓱1DAY),INTEGER,0
+상품별 재고현황,inventory_daily,14,출하예정량,출하예정량,INTEGER,0
+상품별 재고현황,inventory_daily,15,출하예정량(D-0),출하예정량(D-0),INTEGER,0
+상품별 재고현황,inventory_daily,16,출하예정량(D-1),출하예정량(D-1),INTEGER,0
+상품별 재고현황,inventory_daily,17,출하예정량(D-2),출하예정량(D-2),INTEGER,0
+상품별 재고현황,inventory_daily,18,출하예정량(D-3),출하예정량(D-3),INTEGER,0
+상품별 재고현황,inventory_daily,19,출하예정량(쓱1DAY),출하예정량(쓱1DAY),INTEGER,0
+상품별 재고현황,inventory_daily,20,입하예정수량,입하예정수량,INTEGER,0
+상품별 재고현황,inventory_daily,21,SSG 재고일수 (14일 기준),SSG 재고일수 (14일 기준),REAL,0
+상품별 재고현황,inventory_daily,22,DW 일평균 판매량 (14일 기준),DW 일평균 판매량 (14일 기준),REAL,0
+상품별 재고현황,inventory_daily,23,SSG 재고일수 (85일 기준),SSG 재고일수 (85일 기준),REAL,0
+상품별 재고현황,inventory_daily,24,DW 일평균 판매량 (85일 기준),DW 일평균 판매량 (85일 기준),REAL,0
+상품별 재고현황,inventory_daily,25,사용X,사용X__4,TEXT,1
+상품별 재고현황,inventory_daily,26,사용X,사용X__5,TEXT,1
+상품별 재고현황,inventory_daily,27,판매가,판매가,INTEGER,0
+상품별 재고현황,inventory_daily,28,사용X,사용X__6,TEXT,1
+상품별 재고현황,inventory_daily,29,그룹물류상품ID,그룹물류상품ID,TEXT,0
+상품별 재고현황,inventory_daily,30,오프라인상품번호,오프라인상품번호,TEXT,0
+상품별 재고현황,inventory_daily,31,연동상품ID,연동상품ID,TEXT,0
+상품별 재고현황,inventory_daily,32,연동상품옵션ID,연동상품옵션ID,TEXT,0
+상품별 재고현황,inventory_daily,33,상품바코드,상품바코드,TEXT,0
+상품별 재고현황,inventory_daily,34,판매자명(ID),판매자명(ID),TEXT,0
+상품별 재고현황,inventory_daily,35,물류서비스유형(상세),물류서비스유형(상세),TEXT,0
+상품별 재고현황,inventory_daily,36,연동공급업체명,연동공급업체명,TEXT,0
+상품별 재고현황,inventory_daily,37,사용X,사용X__7,TEXT,1
+상품별 재고현황,inventory_daily,38,사용X,사용X__8,TEXT,1
+상품별 재고현황,inventory_daily,39,물류분류,물류분류,TEXT,0
+상품별 재고현황,inventory_daily,40,사용X,사용X__9,TEXT,1
+상품별 재고현황,inventory_daily,41,유통기한관리여부,유통기한관리여부,TEXT,0
+상품별 재고현황,inventory_daily,42,유통기한표시형식,유통기한표시형식,TEXT,0
+상품별 재고현황,inventory_daily,43,유통기한일수,유통기한일수,INTEGER,0
+상품별 재고현황,inventory_daily,44,물류운영카테고리대분류,물류운영카테고리대분류,TEXT,0
+상품별 재고현황,inventory_daily,45,물류운영카테고리중분류,물류운영카테고리중분류,TEXT,0
+상품별 재고현황,inventory_daily,46,물류운영카테고리소분류,물류운영카테고리소분류,TEXT,0
+위치별 재고현황,location_inventory_daily,1,물류상품ID,물류상품ID,TEXT,0
+위치별 재고현황,location_inventory_daily,2,물류상품명,물류상품명,TEXT,0
+위치별 재고현황,location_inventory_daily,3,물류분류,물류분류,TEXT,0
+위치별 재고현황,location_inventory_daily,4,사용X,사용X,TEXT,1
+위치별 재고현황,location_inventory_daily,5,사용X,사용X__2,TEXT,1
+위치별 재고현황,location_inventory_daily,6,유통기한잔여일수,유통기한잔여일수,INTEGER,0
+위치별 재고현황,location_inventory_daily,7,사용X,사용X__3,TEXT,1
+위치별 재고현황,location_inventory_daily,8,BOX입수,BOX입수,INTEGER,0
+위치별 재고현황,location_inventory_daily,9,사용X,사용X__4,TEXT,1
+위치별 재고현황,location_inventory_daily,10,존별 총재고,존별 총재고,INTEGER,0
+위치별 재고현황,location_inventory_daily,11,존별 BOX수,존별 BOX수,INTEGER,0
+위치별 재고현황,location_inventory_daily,12,존별 PCS수,존별 PCS수,INTEGER,0
+위치별 재고현황,location_inventory_daily,13,위치재고,위치재고,INTEGER,0
+위치별 재고현황,location_inventory_daily,14,창고,창고,TEXT,0
+위치별 재고현황,location_inventory_daily,15,층,층,TEXT,0
+위치별 재고현황,location_inventory_daily,16,존,존,TEXT,0
+위치별 재고현황,location_inventory_daily,17,작업구역,작업구역,TEXT,0
+위치별 재고현황,location_inventory_daily,18,보관위치(셀),보관위치(셀),TEXT,0
+위치별 재고현황,location_inventory_daily,19,보관용기ID,보관용기ID,TEXT,0
+위치별 재고현황,location_inventory_daily,20,보관용기유형,보관용기유형,TEXT,0
+위치별 재고현황,location_inventory_daily,21,제조일자,제조일자,TEXT,0
+위치별 재고현황,location_inventory_daily,22,유통기한,유통기한,TEXT,0
+위치별 재고현황,location_inventory_daily,23,유통기한관리,유통기한관리,TEXT,0
+위치별 재고현황,location_inventory_daily,24,전표번호,전표번호,TEXT,0
+위치별 재고현황,location_inventory_daily,25,최초재고생성일자,최초재고생성일자,TEXT,0
+위치별 재고현황,location_inventory_daily,26,출고금지여부(1P),출고금지여부(1P),TEXT,0
+위치별 재고현황,location_inventory_daily,27,프론트재고만료여부,프론트재고만료여부,TEXT,0
+위치별 재고현황,location_inventory_daily,28,상품바코드,상품바코드,TEXT,0
+위치별 재고현황,location_inventory_daily,29,박스바코드,박스바코드,TEXT,0
+위치별 재고현황,location_inventory_daily,30,오프라인상품ID,오프라인상품ID,TEXT,0
+위치별 재고현황,location_inventory_daily,31,판매자ID,판매자ID,TEXT,0
+위치별 재고현황,location_inventory_daily,32,물류서비스유형(상세),물류서비스유형(상세),TEXT,0
+위치별 재고현황,location_inventory_daily,33,운영카테고리대분류명,운영카테고리대분류명,TEXT,0
+위치별 재고현황,location_inventory_daily,34,운영카테고리중분류명,운영카테고리중분류명,TEXT,0
+위치별 재고현황,location_inventory_daily,35,운영카테고리소분류명,운영카테고리소분류명,TEXT,0
+위치별 재고현황,location_inventory_daily,36,사은품구분,사은품구분,TEXT,0
+위치별 재고현황,location_inventory_daily,37,유통기한관리여부,유통기한관리여부,TEXT,0
+위치별 재고현황,location_inventory_daily,38,사용X,사용X__5,TEXT,1
+위치별 재고현황,location_inventory_daily,39,재고확인필요여부,재고확인필요여부,TEXT,0
+위치별 재고현황,location_inventory_daily,40,이동가능여부,이동가능여부,TEXT,0
+위치별 재고현황,location_inventory_daily,41,특행미발주여부,특행미발주여부,TEXT,0
+위치별 재고현황,location_inventory_daily,42,샐비지상품여부,샐비지상품여부,TEXT,0
+위치별 재고현황,location_inventory_daily,43,신선구분,신선구분,TEXT,0
+위치별 재고현황,location_inventory_daily,44,필수속성입력여부,필수속성입력여부,TEXT,0
+위치별 재고현황,location_inventory_daily,45,입수확인필요여부,입수확인필요여부,TEXT,0
+위치별 재고현황,location_inventory_daily,46,센터체적입력여부,센터체적입력여부,TEXT,0
+위치별 재고현황,location_inventory_daily,47,영업등급,영업등급,TEXT,0
+상품정보관리,product_master_daily,1,점포명,점포명,TEXT,0
+상품정보관리,product_master_daily,2,몰판매상태,몰판매상태,TEXT,0
+상품정보관리,product_master_daily,3,점포운영상태,점포운영상태,TEXT,0
+상품정보관리,product_master_daily,4,대표MD명,대표MD명,TEXT,0
+상품정보관리,product_master_daily,5,상품이미지,상품이미지,TEXT,0
+상품정보관리,product_master_daily,6,상품바코드,상품바코드,TEXT,0
+상품정보관리,product_master_daily,7,오프라인상품번호,오프라인상품번호,TEXT,0
+상품정보관리,product_master_daily,8,상품명,상품명,TEXT,0
+상품정보관리,product_master_daily,9,SSG팀,SSG팀,TEXT,0
+상품정보관리,product_master_daily,10,SSG대분류,SSG대분류,TEXT,0
+상품정보관리,product_master_daily,11,SSG중분류,SSG중분류,TEXT,0
+상품정보관리,product_master_daily,12,SSG소분류,SSG소분류,TEXT,0
+상품정보관리,product_master_daily,13,SSG세분류,SSG세분류,TEXT,0
+상품정보관리,product_master_daily,14,기간계담당,기간계담당,TEXT,0
+상품정보관리,product_master_daily,15,기간계팀,기간계팀,TEXT,0
+상품정보관리,product_master_daily,16,기간계대분류,기간계대분류,TEXT,0
+상품정보관리,product_master_daily,17,기간계중분류,기간계중분류,TEXT,0
+상품정보관리,product_master_daily,18,기간계소분류,기간계소분류,TEXT,0
+상품정보관리,product_master_daily,19,협력업체명,협력업체명,TEXT,0
+상품정보관리,product_master_daily,20,협력업체코드,협력업체코드,TEXT,0
+상품정보관리,product_master_daily,21,재고판매상태,재고판매상태,TEXT,0
+상품정보관리,product_master_daily,22,사용X,사용X,TEXT,1
+상품정보관리,product_master_daily,23,사용X,사용X__2,TEXT,1
+상품정보관리,product_master_daily,24,사용X,사용X__3,TEXT,1
+상품정보관리,product_master_daily,25,상품무게,상품무게,REAL,0
+상품정보관리,product_master_daily,26,물류속성입력여부,물류속성입력여부,TEXT,0
+상품정보관리,product_master_daily,27,사용X,사용X__4,TEXT,1
+상품정보관리,product_master_daily,28,사용X,사용X__5,TEXT,1
+상품정보관리,product_master_daily,29,물류분류코드,물류분류코드,TEXT,0
+상품정보관리,product_master_daily,30,유통기한관리,유통기한관리,TEXT,0
+상품정보관리,product_master_daily,31,사용X,사용X__6,TEXT,1
+상품정보관리,product_master_daily,32,사용X,사용X__7,TEXT,1
+상품정보관리,product_master_daily,33,센터이용구분,센터이용구분,TEXT,0
+상품정보관리,product_master_daily,34,센터기능,센터기능,TEXT,0
+상품정보관리,product_master_daily,35,매입형태,매입형태,TEXT,0
+상품정보관리,product_master_daily,36,과세구분,과세구분,TEXT,0
+상품정보관리,product_master_daily,37,공급가,공급가,INTEGER,0
+상품정보관리,product_master_daily,38,판매가,판매가,INTEGER,0
+상품정보관리,product_master_daily,39,마진(%),마진(%),REAL,0
+상품정보관리,product_master_daily,40,소분대상,소분대상,TEXT,0
+상품정보관리,product_master_daily,41,매입단위,매입단위,TEXT,0
+상품정보관리,product_master_daily,42,판매단위,판매단위,TEXT,0
+상품정보관리,product_master_daily,43,매입단위입수,매입단위입수,INTEGER,0
+상품정보관리,product_master_daily,44,매입단위중량,매입단위중량,REAL,0
+상품정보관리,product_master_daily,45,BOX입수,BOX입수,INTEGER,0
+상품정보관리,product_master_daily,46,물류바코드,물류바코드,TEXT,0
+상품정보관리,product_master_daily,47,상품 KAN 바코드,상품 KAN 바코드,TEXT,0
+상품정보관리,product_master_daily,48,상품체적(가로),상품체적(가로),REAL,0
+상품정보관리,product_master_daily,49,상품체적(세로),상품체적(세로),REAL,0
+상품정보관리,product_master_daily,50,상품체적(높이),상품체적(높이),REAL,0
+상품정보관리,product_master_daily,51,사용X,사용X__8,TEXT,1
+상품정보관리,product_master_daily,52,사용X,사용X__9,TEXT,1
+상품정보관리,product_master_daily,53,사용X,사용X__10,TEXT,1
+상품정보관리,product_master_daily,54,사용X,사용X__11,TEXT,1
+상품정보관리,product_master_daily,55,사용X,사용X__12,TEXT,1
+상품정보관리,product_master_daily,56,사용X,사용X__13,TEXT,1
+상품정보관리,product_master_daily,57,사용X,사용X__14,TEXT,1
+상품정보관리,product_master_daily,58,발주대상여부,발주대상여부,TEXT,0
+상품정보관리,product_master_daily,59,품절관리대상,품절관리대상,TEXT,0
+상품정보관리,product_master_daily,60,가재고 생성여부,가재고 생성여부,TEXT,0
+상품정보관리,product_master_daily,61,발주권한,발주권한,TEXT,0
+상품정보관리,product_master_daily,62,판매단위상이여부,판매단위상이여부,TEXT,0
+상품정보관리,product_master_daily,63,상품등록일,상품등록일,TEXT,0
+상품정보관리,product_master_daily,64,택배가능여부,택배가능여부,TEXT,0
+상품정보관리,product_master_daily,65,사용X,사용X__15,TEXT,1
+상품정보관리,product_master_daily,66,수정자,수정자,TEXT,0
+상품정보관리,product_master_daily,67,수정일시,수정일시,TEXT,0
+발주내역,purchase_order_daily,1,중분류명,중분류명,TEXT,0
+발주내역,purchase_order_daily,2,소분류명,소분류명,TEXT,0
+발주내역,purchase_order_daily,3,세분류명,세분류명,TEXT,0
+발주내역,purchase_order_daily,4,아이템명,아이템명,TEXT,0
+발주내역,purchase_order_daily,5,물류분류코드명,물류분류코드명,TEXT,0
+발주내역,purchase_order_daily,6,오프라인상품번호,오프라인상품번호,TEXT,0
+발주내역,purchase_order_daily,7,상품명,상품명,TEXT,0
+발주내역,purchase_order_daily,8,단위,단위,TEXT,0
+발주내역,purchase_order_daily,9,판매예측치,판매예측치,REAL,0
+발주내역,purchase_order_daily,10,안전재고,안전재고,INTEGER,0
+발주내역,purchase_order_daily,11,발주가용재고,발주가용재고,INTEGER,0
+발주내역,purchase_order_daily,12,입점예정수량,입점예정수량,INTEGER,0
+발주내역,purchase_order_daily,13,권고,권고,INTEGER,0
+발주내역,purchase_order_daily,14,총발주,총발주,INTEGER,0
+발주내역,purchase_order_daily,15,발주,발주,INTEGER,0
+발주내역,purchase_order_daily,16,재고일수,재고일수,REAL,0
+발주내역,purchase_order_daily,17,낱개단위발주여부,낱개단위발주여부,TEXT,0
+발주내역,purchase_order_daily,18,행사유형,행사유형,TEXT,0
+발주내역,purchase_order_daily,19,결과유형,결과유형,TEXT,0
+발주내역,purchase_order_daily,20,발주상태,발주상태,TEXT,0
+발주내역,purchase_order_daily,21,발주종류,발주종류,TEXT,0
+발주내역,purchase_order_daily,22,발주유형,발주유형,TEXT,0
+발주내역,purchase_order_daily,23,등록일시,등록일시,TEXT,0
+발주내역,purchase_order_daily,24,등록자,등록자,TEXT,0
+발주내역,purchase_order_daily,25,확정일시,확정일시,TEXT,0
+발주내역,purchase_order_daily,26,확정자,확정자,TEXT,0
+발주내역,purchase_order_daily,27,입점예정일,입점예정일,TEXT,0
+발주내역,purchase_order_daily,28,발주서작성여부,발주서작성여부,TEXT,0
+발주내역,purchase_order_daily,29,사용X,사용X,TEXT,1
+매입전표추출,purchase_receipt_daily,1,점포명,점포명,TEXT,0
+매입전표추출,purchase_receipt_daily,2,점포입점예정일자,점포입점예정일자,TEXT,0
+매입전표추출,purchase_receipt_daily,3,매입일,매입일,TEXT,0
+매입전표추출,purchase_receipt_daily,4,전표번호,전표번호,TEXT,0
+매입전표추출,purchase_receipt_daily,5,전표구분,전표구분,TEXT,0
+매입전표추출,purchase_receipt_daily,6,정정구분,정정구분,TEXT,0
+매입전표추출,purchase_receipt_daily,7,전표구분상세,전표구분상세,TEXT,0
+매입전표추출,purchase_receipt_daily,8,납품경로,납품경로,TEXT,0
+매입전표추출,purchase_receipt_daily,9,사용X,사용X,TEXT,1
+매입전표추출,purchase_receipt_daily,10,중분류명,중분류명,TEXT,0
+매입전표추출,purchase_receipt_daily,11,기간계 대분류명,기간계 대분류명,TEXT,0
+매입전표추출,purchase_receipt_daily,12,물류분류코드,물류분류코드,TEXT,0
+매입전표추출,purchase_receipt_daily,13,오프라인상품번호,오프라인상품번호,TEXT,0
+매입전표추출,purchase_receipt_daily,14,상품명,상품명,TEXT,0
+매입전표추출,purchase_receipt_daily,15,BO상위업체,BO상위업체,TEXT,0
+매입전표추출,purchase_receipt_daily,16,협력업체,협력업체,TEXT,0
+매입전표추출,purchase_receipt_daily,17,사용X,사용X__2,TEXT,1
+매입전표추출,purchase_receipt_daily,18,판매단위,판매단위,TEXT,0
+매입전표추출,purchase_receipt_daily,19,발주시점 입수수량,발주시점 입수수량,INTEGER,0
+매입전표추출,purchase_receipt_daily,20,현재시점 입수수량,현재시점 입수수량,INTEGER,0
+매입전표추출,purchase_receipt_daily,21,낱개단위발주여부,낱개단위발주여부,TEXT,0
+매입전표추출,purchase_receipt_daily,22,매입확정구분,매입확정구분,TEXT,0
+매입전표추출,purchase_receipt_daily,23,발주일자,발주일자,TEXT,0
+매입전표추출,purchase_receipt_daily,24,발주수량,발주수량,INTEGER,0
+매입전표추출,purchase_receipt_daily,25,사용X,사용X__3,TEXT,1
+매입전표추출,purchase_receipt_daily,26,사용X,사용X__4,TEXT,1
+매입전표추출,purchase_receipt_daily,27,매입수량,매입수량,INTEGER,0
+매입전표추출,purchase_receipt_daily,28,사용X,사용X__5,TEXT,1
+매입전표추출,purchase_receipt_daily,29,사용X,사용X__6,TEXT,1
+매입전표추출,purchase_receipt_daily,30,판매가,판매가,INTEGER,0
+매입전표추출,purchase_receipt_daily,31,해외창고 유형,해외창고 유형,TEXT,0
+매입전표추출,purchase_receipt_daily,32,검수주체,검수주체,TEXT,0
+UNIT 품절율,stockout_daily,1,기준일자,기준일자,TEXT,0
+UNIT 품절율,stockout_daily,2,영업점번호,영업점번호,TEXT,0
+UNIT 품절율,stockout_daily,3,영업점명,영업점명,TEXT,0
+UNIT 품절율,stockout_daily,4,오프라인담당명,오프라인담당명,TEXT,0
+UNIT 품절율,stockout_daily,5,오프라인팀명,오프라인팀명,TEXT,0
+UNIT 품절율,stockout_daily,6,오프라인대분류명,오프라인대분류명,TEXT,0
+UNIT 품절율,stockout_daily,7,오프라인중분류명,오프라인중분류명,TEXT,0
+UNIT 품절율,stockout_daily,8,오프라인소분류명,오프라인소분류명,TEXT,0
+UNIT 품절율,stockout_daily,9,오프라인상품번호,오프라인상품번호,TEXT,0
+UNIT 품절율,stockout_daily,10,오프라인상품명,오프라인상품명,TEXT,0
+UNIT 품절율,stockout_daily,11,표준카테고리대분류명,표준카테고리대분류명,TEXT,0
+UNIT 품절율,stockout_daily,12,표준카테고리중분류명,표준카테고리중분류명,TEXT,0
+UNIT 품절율,stockout_daily,13,표준카테고리소분류명,표준카테고리소분류명,TEXT,0
+UNIT 품절율,stockout_daily,14,표준카테고리세분류명,표준카테고리세분류명,TEXT,0
+UNIT 품절율,stockout_daily,15,SSG상품번호,SSG상품번호,TEXT,0
+UNIT 품절율,stockout_daily,16,SSG상품명,SSG상품명,TEXT,0
+UNIT 품절율,stockout_daily,17,품절여부,품절여부,TEXT,0
+UNIT 품절율,stockout_daily,18,자동발주여부,자동발주여부,TEXT,0
+UNIT 품절율,stockout_daily,19,품절사유,품절사유,TEXT,0
+UNIT 품절율,stockout_daily,20,운영시간수,운영시간수,REAL,0
+UNIT 품절율,stockout_daily,21,품절시간수,품절시간수,REAL,0
+UNIT 품절율,stockout_daily,22,품절율,품절율,REAL,0
+UNIT 품절율,stockout_daily,23,공급업체ID,공급업체ID,TEXT,0
+UNIT 품절율,stockout_daily,24,공급업체명,공급업체명,TEXT,0
+UNIT 품절율,stockout_daily,25,하위공급업체ID,하위공급업체ID,TEXT,0
+UNIT 품절율,stockout_daily,26,하위공급업체명,하위공급업체명,TEXT,0
+UNIT 품절율,stockout_daily,27,점물분등급,점물분등급,TEXT,0
+UNIT 품절율,stockout_daily,28,물류분류코드,물류분류코드,TEXT,0
