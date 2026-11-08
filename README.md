@@ -1,34 +1,36 @@
-# SCM Query Lab
+# SCM Query Lab · Virtual Warehouse Simulation
 
-Static website for choosing real SQLite SELECT queries, adding parameter-bound filters, selecting output columns, grouping and exporting results.
+SCM 재고·발주·품절 데이터를 분석하는 **브라우저 기반 SQL 조회 환경**과 **가상 물류센터 운영 시뮬레이션**을 정리한 개인 프로젝트입니다.
 
-The browser loads a gzip-compressed snapshot of the synthetic SCM database: 30 dates, 456 observed products, six business tables containing 18,000 source rows, 14 physical tables and 10 views. No application server or remote database connection is used for query execution.
+**[한국어 포트폴리오 소개 보기](PORTFOLIO.md)** · [가상 물류센터 상세 설명](CENTER_README.md) · [로컬 실행 안내](먼저_읽어주세요.md)
 
-## Features
+> 이 프로젝트는 학습 및 SCM 운영 의사결정 시나리오 검토를 위한 프로토타입입니다. 기본 데이터는 합성 데이터이며, 실제 WMS 실시간 연결이나 운영 개선 실적을 주장하지 않습니다.
 
-- Fourteen named SQL templates and direct selection of all 24 tables/views.
-- Date, category, MD, supplier and product search filters. Unavailable filters are disabled.
-- Up to twelve custom conditions with AND/OR, comparisons, ranges, IN/NOT IN, text matching and NULL checks.
-- Output column picker, up to three grouping keys, SUM/AVG/MIN/MAX, row count, distinct count and time-weighted stockout percentage.
-- Actual parameterized SQL preview and copy, sorting, pagination and up to 50,000-result CSV export.
-- Bar, line and numeric scatter charts with explicit chart aggregation.
-- Browser-local saved query preferences (up to twenty), JSON export and schema inspection.
-- Compatible local `.db` file selection, processed entirely in browser memory. No file upload request is issued.
+## 기능 요약
 
-## Data freshness and scope
+- **SQL 분석:** SQLite 조회 템플릿 14종, 조건 필터·그룹화·정렬, 표/차트, CSV 내보내기
+- **데이터 연결:** 호환되는 SQLite 또는 지정 CSV/XLSX 파일을 브라우저에서 불러오는 로컬 데이터 흐름
+- **가상 물류센터:** 입하·출하, 층별 보관, 주문 예약, 피킹 및 출하 과정의 시뮬레이션
+- **로케이션:** 2·3층 가상 위치별 재고 조회와 데모 입하·피킹 처리
 
-The online default snapshot ends on 2026-11-07. It does not synchronize with a user's PC. Select an updated `scm.db` file to query newer PC data. An explicitly connected DB now persists in browser IndexedDB and is shared with the data connection and virtual-center pages, including other same-origin tabs. Before any connection is selected, the SQL page uses the hosted synthetic snapshot.
+## 빠른 시작
 
-The database must have the original SCM application ID and schema. File selection is limited to 100 MB. Query and center views are read-only and do not modify the selected PC file. The data connection page can import original files into a browser-local copy and export the resulting DB. SQL definitions are supplied by known presets or quoted identifiers; values are bound as parameters.
+로컬 실행 및 폴더 구조는 [먼저 읽어주세요](먼저_읽어주세요.md)를 확인하세요. 주요 브라우저 화면 파일은 `dist/index.html`, `dist/data/index.html`, `dist/center/index.html`입니다.
 
-Filtering wraps the selected SQL as a subquery. Therefore, a pre-aggregated preset is filtered after its existing aggregation. For pre-aggregation MD/category filtering, start from `v_sku_day` and configure grouping. Multiple-day inventory sums and unweighted rate averages require interpretation; UI warnings explain this.
+## 데이터와 실행 범위
 
-## Runtime
+SQL.js 기반 브라우저 내 조회를 사용하며, 원격 데이터베이스 서버에서 쿼리를 수행하지 않습니다. 연결한 파일은 프로젝트 문서의 제약 아래 브라우저 로컬 저장소에서 처리됩니다. 로컬 파일 데이터와 브라우저 저장소를 원격 중앙 DB 또는 실제 설비 연동으로 해석하면 안 됩니다.
 
-This is a buildless static site. `dist/` is published according to `.openai/hosting.json`.
-SQL.js is vendored from its official npm package with a verified SHA-512 package integrity value. Its version, origin and MIT license are retained under `dist/assets/`.
+## 기술·검증 문서
 
-## Validation
+- [SCM 포트폴리오: 문제·분석 흐름·제약·확장 방향](PORTFOLIO.md)
+- [센터 시뮬레이션 가정과 로케이션/데이터 연결 상세](CENTER_README.md)
+- [기존 검증 기록](validation.json)
+- [테스트 코드](tests/)
+- [소스 버전 메타데이터](SOURCE_VERSION.json)
 
-See `validation.json` for actual database query checks and browser checks. SQL preset execution, all source objects, compound filters, parameter injection attempts, literal LIKE escaping, grouping and weighted percentages, invalid numeric/identifier rejection and database read-only mode were tested against the SQLite snapshot.
-Browser checks verified 100 default rows, 27 latest stockout rows, five stockout rows for ambient food, thirty daily weighted groups, saved queries, opening a local DB file, schema inspection and CSV export of 100 rows and ten columns.
+코드와 테스트 기록이 저장되어 있다는 사실은 곧 상용 환경의 안정성, 모든 기능의 최신 실행 검증, 실제 SCM 성과를 뜻하지 않습니다.
+
+## 보안
+
+회사 내부 데이터, 비밀번호, API 키, 개인식별정보를 저장소에 올리지 마세요. 저장소가 비공개여도 커밋 이력에 민감한 내용이 포함되지 않았는지 확인해야 합니다.
